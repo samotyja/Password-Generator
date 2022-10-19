@@ -4,8 +4,8 @@
   "description": "Simple password generator",
   "source": "./src/index.html",
   "scripts": {
-    "dev": "parcel",
-    "build": "parcel build"
+    "start": "parcel",
+    "build": "parcel build --dist-dir public"
   },
   "author": "Jakub Samotyja",
   "license": "ISC",
