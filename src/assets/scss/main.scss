@@ -60,7 +60,7 @@ body{
 
 .password-hints{
     font-size: 0.83rem;
-    color: red;
+    color: #ff0000;
 }
 
 .password-hints ul{
@@ -68,8 +68,9 @@ body{
 }
 
 .list-icon{
-    margin-left:auto;
-    color: #B2A8A8;
+    display: none;
+    margin-left: auto;
+    color: #008000;
 }
 
 li{
