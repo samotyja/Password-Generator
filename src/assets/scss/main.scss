@@ -1,0 +1,144 @@
+
+
+
+@import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+body{
+    background-image: url("/src/assets/img/XXL.svg");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.generator-box{
+    background-color: white;
+    width: 416px;
+    height: 396px;
+    border-radius: 20px;
+}
+
+.logo-box{
+    background-color: #BA174B;
+    height: 55px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-box a{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4CBB17;
+}
+
+.generator-box-body{
+    padding: 24px;
+    font-family: 'Karla';
+}
+
+.progress-bar{
+    margin-top: 12px;
+    width: 100%;
+    height: 6px;
+    background: #B2A8A8;
+}
+
+.progress-bar-text{
+    font-size: 0.83rem;
+    color: #B2A8A8;
+    margin-top: -3px;
+    margin-bottom: 8px;
+
+}
+
+.password-hints{
+    font-size: 0.83rem;
+    color: red;
+}
+
+.password-hints ul{
+    padding-left: 0rem !important;
+}
+
+.list-icon{
+    margin-left:auto;
+    color: #B2A8A8;
+}
+
+li{
+    position: relative;
+    display: flex;
+    list-style: circle;
+}
+
+.separator{
+    width: 100%;
+    height: 1px;
+    background: #D9D4D4;
+    margin-bottom: 8px;
+}
+
+.option{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.option-checkbox{
+    margin-right: 8px;
+}
+
+.info-icon{
+    margin-left: auto;
+    color: #B2A8A8;
+}
+
+.input-lenght{
+    height: 28px;
+}
+
+.btn-generate{
+    height: 28px;
+    width: 100%;
+    background-color: #BA174B;
+    color: white;
+    border: none;
+    border-radius: .375rem;
+    transition-duration: 0.5s;
+}
+
+.btn-generate:hover{
+    background-color: #960e39;
+    transition-duration: 0.5s;
+}
+
+.btn-generate:active{
+    background-color: #7a0c2f;
+}
+
+.info {
+    display: none;
+    position: absolute;
+    border-radius: .375rem;
+    width: 84px;
+    top: 20px;
+    right: -32px;
+    background-color: rgb(248, 248, 248);
+    overflow-wrap:break-word;
+    padding: 2px;
+    z-index: 2;
+    border: 1px solid #B2A8A8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.info-icon:hover + .info {
+    display: block;
+}
