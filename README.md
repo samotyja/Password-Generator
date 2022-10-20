@@ -3,7 +3,7 @@
 ## Description
 Simple password generator for exercise purposes. 
   
-It can generate passwords with selected character sets and check the strength of a generated password by checking things like password length, use of special characters, etc. You can also provide a password manually and check if it's strong enaught.  
+It can generate passwords with selected character sets and check the strength of a generated password by checking things like password length, use of special characters, etc. You can also provide a password manually and check if it's strong enough.  
   
 By making this project I mainly wanted to practice the use of NPM and refresh some basic JavaScript.
 ## Author
